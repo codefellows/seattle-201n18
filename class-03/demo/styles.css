@@ -1,0 +1,26 @@
+body {
+    background-color: bisque;
+}
+
+#box-one {
+
+    border-style: solid;
+    border-color: red;
+    margin: 2px;
+    padding: 2px;
+}
+
+#box-two {
+    border-style: dotted;
+    border-color: blue;
+    margin: 2px;
+    padding: 8px;
+}
+
+.boxes {
+    border-style: double;
+}
+
+/* div {
+    border-style: dotted;
+} */
