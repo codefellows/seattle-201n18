@@ -1,5 +1,24 @@
 # HTML Links, JS Functions, and Intro to CSS Layout
 
+## Survey
+
+### Least Helpful
+- Transitioning to fully online was not fun. I was looking forward to being in an actual classroom so that I could immediately focus on the learning and not have to do at-home sessions. I understand it was avoidable though and everyone is struggling and this time. 
+- I understand the idea of break out sessions for us to do lab, but I *personally* would rather work on labs in my own vacuum. The zoom break out rooms are a great way to simulate breaking a class out to different tables as CF does on campus, but I *personally* would rather not do either. I’d prefer to slack cohort member, TA, or instructor if/when I need help and jump into a breakout room then vs being on zoom (muted and buried under my other windows) the whole lab time.
+- I was hoping the lecture on Loops this past Saturday would help me better understand loops from the reading we did/ brief foray in 102. But if anything I think the lecture confused me more...
+- Struggling to balance work as essential personnel with school and other obligations.  I'm sure others are experiencing the same.  Conflicting commitments due to the current stay at home order.
+
+
+### Most Helpful
+- I found code review and demo the most helpful. Sometimes i get stuck on just how to even start so those things combined let me see other peoples points of view and kind of starts me off a little more confident.
+- The way the assignments are written. They give enough information to point you in the right direction but you still need to google and solve some things on your own. The ability to see lecture demos and translate the info into your own scenario (vs verbatim) is key to learning!
+- I SO prefer this setup to the 102 schedule. Having a few days to focus on one lab/topic before moving on is helping me feel far more grounded than continuously jumping from one thing to the next. I realize that's how stacked learning works, but this pace is still much better for me.
+- I am learning a lot about coding so far and I am able to write the code and can teach what i've learned 
+- Breakout rooms and screen share ability.  Great to have one on one with classmates and hash out problems with peers.
+- I think code reviews. 
+- I thought was Wednesday was helpful getting us set up for the lab.
+
+
 ## Learning Objectives
 
 As a result of completing Lecture 4 of Code 201, students will:
