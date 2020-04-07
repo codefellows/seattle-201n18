@@ -1,49 +1,44 @@
-# Introduction to Development
+# Lab: Let's get started
 
-## Lecture
+Read this document in its entirety before beginning your lab.
 
-## Learning Objectives
+## Problem Domain
 
-As a result of completing Lecture 1 of Code 201, students will be able to:
+Create a webpage that accepts user input and, based on that input, displays messages back to the user.
 
-- create a HTML page from scratch, with proper HTML5 hierarchical structure conventions, as demonstrated by successful completion of the daily code assignment
-- properly include a \<script> tag in an HTML document that will interact with the user via prompt/alert, as demonstrated by successful completion of the daily code assignment
-- write JavaScript that will interact with the user via prompt/alert, as demonstrated by successful completion of the daily code assignment
-- use the command line to create and change directories, create and list files, and open files in a text editor and in a web browser, as demonstrated by successful completion of the daily code assignment
-- install & use plugins for their text editor, including a minimap and a JavaScript linter, as measured by observations of the instructional staff
+## Instructions
 
-## Kickoff
+- You may do the work in the same HTML file that we used for our class demo today. Because the originals from class are saved in the class GitHub repo, there is no worry in overwriting them or need for saving an unnecessary extra copy.
+- Using a total of four JavaScript 'prompt' statements along the lines of our class demo, have a user answer four questions.
+- The user's response to each question (input) should be stored in a separate variable. Name your variables carefully.
+- Using these responses, return an alert to the user (output) that concatenates their response into some kind of reply like we did in class.
+- Strive to have your alert for each question utilize the responses to all of the prior questions such that by the fourth question, your response would look something like, "Greetings, *Iggy* from *Ipanema*, I also like to eat *bananas* while on vacation in *Paris*."
+- Be creative and have fun with your questions/responses! They can be whatever you want so long as the input/output requirements are met.
+- In addition, for each response, create a console.log() message that indicates the nature of the question and the user's response, as we did in class.
+- Set up the HTML document `<body>` with `<header>`, `<main>`, and `<footer>` elements.
+- In the `<main>` of the file, place a `<h1>` tag with the content "Class 1 Lab". Style this element with text and background colors via an internal `<style>` element placed in the `<head>` of your document.
+- In the HTML portion of the file, place the four questions within a series of `<p>` tags so that they are listed on the screen.
 
-This is the welcome and introduction to Code Fellows. You will meet the campus manager and learn about campus operations and policies.
+- Give each `<p>` tag a different text color and background color by using inline styling.
 
-## Academic Overview
+### Stretch Goals
 
-The instructor will give an overview of the topics to be covered in this course and how those topics fit into the overall academic program at Code Fellows.
+After completing all of the requirements listed above, you may optionally challenge yourself further by implementing some or all of the following into your application.
 
-## Unix & Git
+- Utilizing internal and inline styling as you wish, apply additional styling to the page: try things like borders, alignment, margin, padding, and so on.
+- Search for an online HTML validator and submit your code to it. Take a screenshot of your output and submit the image.
+- Visit [this page](https://developers.google.com/web/tools/chrome-devtools/accessibility/reference){:target="_blank"} and read about Chrome's built-in accessibility auditing tools. Following the instructions under the "View the contrast ratio of a text element in the Color Picker" heading, examine the contrast ratio values of your heading and paragraph tags. Modify your code until you can achieve a ratio with that gets two check marks. Submit a screenshot of the Chrome tools showing this off.
 
-Introduction to core the concepts of file management from the command line and the fundamentals of Git and GitHub.
+## Resources
 
-- `pwd` = present working directory
-- `tree`  = shows the filetree of your directory
-- `ls`, `ls -la`  = list all the files and folders located in your current directory
-- `cd` = change directory
-- `mkdir` = make directory  
-- `touch` = create a new file
-- `code`  = open up this file in VSCode
-- `mv` = move a file
-- `rm` = remove a file
-- `cp`  = copy a file
+Refer to the code demo from today as a starting point for this lab assignment.
 
-## Set up a JavaScript linter
+## Submission Instructions
 
-Setup your linter by opening your terminal and type `cd` to navigate to their home directory. Then type `code .eslintrc.json`, which will create a new file called `.eslintrc.json` and open it in VSCode. You should then paste the contents of the `.eslintrc.json` file, which is located in the root of the class repository.
-
-## Additional VSCode Settings
-
-In the lower left-hand corner of VSCode, click on the gear icon and select "Settings". Use the search functionality to set the following values:
-
-- "editor.tabSize" should be set to 2
-- "editor.detectIndentation" should be set to true
-- "editor.wordWrap" should be set to "on"
-- "editor.minimap.enabled" should be set to true
+- Go to [https://gist.github.com](https://gist.github.com){:target="_blank"}.
+- In the "Gist description..." field, put your name.
+- In the "Filename including extension..." field put 'index.html'.
+- Copy-paste your code into the big input field for the Gist.
+- Select the button that says "Create secret gist".
+- Choose the "Share" option in the drop down list next to the link.
+- Copy the link from the Gist screen for submission in the URL field below.
