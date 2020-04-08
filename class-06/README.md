@@ -1,8 +1,29 @@
 # The DOM, Domain Modeling, and Introduction to Objects
 
-<a id="top"></a>
-
 ## Lecture
+## Survey 
+#### Last Week
+Still catching up (life)
+
+#### Helpful
+Remo Classroom x 2 
+Demo / Code review
+Paired Programming x 3
+"Extra" instruction on Mondays
+Able to ask classmates questions
+
+
+#### Not Helpful
+Paired Programming
+Testing during lab time x 3
+Prefer Zoom x 2
+Rogers Chicken Scratch on whiteboard
+
+#### Other
+Like 1 on 1 feedback
+Do not like the Remo (blurry, drop problems) x 2
+Would like less distraction during lab time
+
 
 ## Learning Objectives
 
@@ -13,7 +34,3 @@ As a result of completing Lecture 6 of Code 201, students will:
 - Use JavaScript to dynamically render array data as an unordered list in the DOM, as measured by successful completion of the daily code assignment
 - Demonstrate an understanding of how object literals are structured in JavaScript, as well as how to access and reassign values/functionality to their properties and methods, as measured by successful completion of the daily code assignment and a quiz administered in Canvas.
 - Demonstrate an understanding of how dot notation and bracket notation are used to access/reassign properties and methods in JavaScript objects, as measured by successful completion of the daily code assignment and a quiz administered in Canvas.
-
-### One-on-One Meetings
-
-The instructor will have a 15-minute one-on-one meeting with each student during the coming week: this will be an opportunity to review your progress, answer any questions you have, and discuss any topics the instructor sees appropriate, such as your future plans in the program. We will start the process of scheduling those meetings very soon.
