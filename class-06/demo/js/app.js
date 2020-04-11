@@ -16,7 +16,7 @@ var pEl = document.getElementById('movies');
 // // append the child element to the parent element
 // parentEl.appendChild(liEl);
 
-var colors = ['red', 'black', 'yellow', 'blue', 'purple'];
+var movies = ['Star Wars A New Home', 'black', 'yellow', 'blue', 'purple'];
 
 for(var i = 0; i < colors.length; i++){
   // create element
