@@ -1,0 +1,28 @@
+nav {
+    height: 40px;
+    width: 95%;
+    border: solid black 1px;
+    padding: 10px;
+    margin: 10px
+}
+li {
+    display: inline;
+    border: solid black 1px;
+    margin: 70px;
+    padding: 10px 70px;
+}
+
+ul {
+    text-align: center;
+    margin: 10px
+}
+
+#section1, #section2 {
+    display: inline;
+    margin: 100px;
+}
+
+#section3 {
+    /* margin: 0px 0px 0px 200px; */
+    margin-left: 200px;
+}
