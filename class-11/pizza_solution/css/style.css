@@ -1,0 +1,216 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    color:#595959;
+    font-family:Serif;
+}
+
+strong {
+    font-family: 'Oswald';
+    text-transform: uppercase;
+}
+
+h1 {
+    color: #525252;
+    font-family: 'Oswald';
+    font-size:3em;
+    font-weight:bold;
+}
+
+h2 {
+    font-size:1.5em;
+    font-weight:bold;
+    margin-bottom:.5em;
+}
+
+a.primary {
+    background:#ba6f57;
+    color:#fff;
+    display:inline-block;
+    line-height:50px;
+    text-align:center;
+    text-decoration:none;
+    width:150px;
+}
+
+/* Center it all to 900px */
+body header { font-size:1em; }
+
+body > header, 
+main,
+footer {
+    margin:auto;
+    width:900px;
+}
+
+.deck.separator-top {
+    background-image: url("../images/hr-img.png");
+    background-repeat: repeat-x;
+    padding-top:1.5em;
+    margin-top:2.5em;
+}
+
+/* HEADER */
+
+    body > header {
+        color: #525252;
+        overflow:hidden; /* clear the float */
+        position:relative;
+    }
+    
+    body > header > .title {
+        display:block;
+        font-family: 'Yellowtail', cursive;
+        font-size:2em;
+    }
+    
+    body > header strong {
+        font-size: .75em;
+    }
+    
+    body > header > img {
+        float:left;
+        margin-right:1em;
+    }
+    
+    body > header > nav, 
+    body > header > nav > ul {
+        float:right;
+        position:relative;
+        top:-6px;  /* img is 24px high. Halfway is 12px. Split the difference */
+    }
+    
+    body > header > nav > ul:first-child {
+        margin-left:1em;
+    }
+    
+    nav li {
+        display:inline-block;
+        margin:.0;
+        padding:0;
+    }
+    
+
+/* FOOTER */
+    
+    footer {
+        color:#ccc;
+        margin-top: 3em;
+        position:relative;
+        text-align:center;
+    }
+    
+    footer img {
+        border-left: 1em solid white;
+        border-right: 1em solid white;
+        margin-bottom: 1.5em;
+    }
+    
+    footer:before {
+        border-top: 1px solid #ccc;
+        content: "";
+        width: 100%;
+        position: absolute;
+        top: 15px;
+        left: 0px;
+        z-index: -1;
+    }
+
+
+/* (G) CARD AND DECK LAYOUTS */
+
+    section.deck {
+        margin:1em 0;
+        overflow:hidden;
+        width:100%;
+    }
+    
+    .deck.col-1 .card {
+        width: 100%;
+    }
+
+    .card .copy p {
+        font-family: "Serif";
+        font-size:1.25em;
+        margin:1em 0;
+        text-indent: 2em;
+    }
+    
+    
+/* (G) CARDS LINED UP HORIZONTALLY */
+
+    .card.horizontal-content {
+        overflow:hidden;
+    }
+    
+    .card.horizontal-content figure {
+        float:left;
+    }
+    
+    .card.horizontal-content .links {
+        float:right;
+    }
+    
+    .card.horizontal-content .copy {
+        float:left;
+        font-size: 1.1em;
+        padding: 0 2em;
+        width: calc(100% - 150px - 75px);
+    }
+
+/* (G) CARDS USING THEIR "IMG" AS BACKGROUND */
+    .card.bgimage {
+        position:relative;
+    }
+    
+    .card.bgimage figure {
+        bottom:0;
+        left:0;
+        position:absolute;
+        right:0;
+        top:0;
+        z-index:-1;
+    }
+
+
+/* RECIPE CARD */
+
+    /* Used column-count:2 on the UL to get the columns of ingredients to "snake" in order */
+    /* If you use the floats instead, they would zig-zag */
+
+    .recipe {
+        column-count:2;
+        font-family: 'Patrick Hand SC', cursive;
+        font-size:1.6em;
+        overflow:hidden;
+        padding:.5em 1.5em;
+    }
+    
+    .recipe li {
+        /* float:left; */
+        margin-bottom:.5em;
+        /* width:45%; */
+    }
+
+    .recipe span {
+        display:inline-block;
+        vertical-align:top;
+        white-space:normal;
+    }
+
+    .recipe label {
+        margin:0;
+        padding:0;
+        white-space:nowrap;
+    }
+
+    .recipe input[type=checkbox] {
+        vertical-align:middle;
+    }
+
+    :checked + span  {
+        text-decoration: line-through;
+    }
+

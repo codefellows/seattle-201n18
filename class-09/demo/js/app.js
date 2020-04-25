@@ -1,4 +1,5 @@
 'use strict';
+var debugDom = false;
 
 var theadEl = document.getElementById('table_head');
 var tbodyEl = document.getElementById('table_body');
@@ -39,14 +40,19 @@ function handleSubmit(event){
   event.preventDefault();
 
   var movie = event.target.movieName.value;
-  console.log(movie);
+  
+  if (debug){
+    console.log(movie);
+  }
 
   var year = event.target.movieYear.value;
-  console.log(year);
-
+  if(debug){
+    console.log(year);
+  }
   var episode = event.target.movieEpisode.value;
-  console.log(episode);
-
+  if(debug){
+    console.log(episode);
+  }
   new StarWarsMovies(movie, year, episode);
 
   event.target.movieName.value = null;
