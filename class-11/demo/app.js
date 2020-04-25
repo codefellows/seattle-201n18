@@ -5,7 +5,7 @@ var allAlpacas = [];
 // create link to our DOM elements
 var imageOneEl = document.getElementById('alpaca-image-1');
 var imageTwoEl = document.getElementById('alpaca-image-2');
-var divEl = document.getElementById('alpaca-container')
+var divEl = document.getElementById('alpaca-container');
 
 // Track how many times a user has clicked on images
 var clickTracker = 5;
@@ -26,7 +26,9 @@ function randomizer(max){
 // create a function that will pick two numbers and randomly generate
 function imageGenerator(){
     var pic1 = randomizer(allAlpacas.length);
+    console.log(pic1);
     var pic2 = randomizer(allAlpacas.length);
+    console.log(pic2);
 
     imageOneEl.src = allAlpacas[pic1].src;
     imageOneEl.title = allAlpacas[pic1].name;
@@ -53,6 +55,7 @@ new Alpaca('allen',  './assets/a7.jpg');
 function handleClick(event) {
     // increment our property 'clicks', and generate two new images
     var clickedAlpaca = event.target.title;
+    console.log(clickedAlpaca);
     for(var i = 0; i < allAlpacas.length; i++){
         if(clickedAlpaca === allAlpacas[i].name){
             allAlpacas[i].clicked++;
@@ -64,8 +67,10 @@ function handleClick(event) {
         stopClicking();
     }
     imageGenerator();
-}
+};
+
 
 divEl.addEventListener('click', handleClick);
+
 
 imageGenerator();
