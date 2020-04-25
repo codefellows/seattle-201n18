@@ -7,7 +7,8 @@ var imageOneEl = document.getElementById('alpaca-image-1');
 var imageTwoEl = document.getElementById('alpaca-image-2');
 var divEl = document.getElementById('alpaca-container')
 
-
+// Track how many times a user has clicked on images
+var clickTracker = 5;
 
 function Alpaca(name, src){
     this.name = name;
@@ -34,7 +35,11 @@ function imageGenerator(){
     imageTwoEl.title = allAlpacas[pic2].name;
 }
 
-
+function stopClicking() {
+    divEl.removeEventListener('click', handleClick);
+    divEl.textContent = '';
+    console.log('done');
+}
 
 new Alpaca('alphonso',  './assets/a1.jpg');
 new Alpaca('albert',  './assets/a2.jpg');
@@ -52,6 +57,11 @@ function handleClick(event) {
         if(clickedAlpaca === allAlpacas[i].name){
             allAlpacas[i].clicked++;
         }
+    }
+    clickTracker--;
+
+    if(clickTracker === 0){
+        stopClicking();
     }
     imageGenerator();
 }
