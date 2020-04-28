@@ -1,0 +1,14 @@
+body {
+    border: solid black 1px;
+}
+
+img {
+    height: 400px;
+    width: 266px;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+section {
+    display: inline;
+}
