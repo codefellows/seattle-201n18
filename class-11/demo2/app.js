@@ -48,6 +48,7 @@ function randomMovie(max){
 
 // imgage generator
 function imageGenerator(){
+ 
   do {
     var pic1 = randomMovie(allMovies.length);
     // console.log(pic1);
