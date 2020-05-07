@@ -1,6 +1,19 @@
 
 # CSS Animations; Intermediate JS Topics; Using Local Storage to Share Data Between Two Pages
 
+
+## Feedback
+
+"Labs and working on projects with others."
+
+"I like the resubmit policy, it really helps me focus on learning the material opposed to just trying to get things turned in as good as I can with serious time constraints."
+
+"During lecture, it would help me speak the language better if instructors would call things in their syntax by their appropriate names according to what they're talking about in the code. Kind of how Roger was asking us not to say "var" but say we're assigning this variable name to do this."
+
+"I mentioned in my reflection this week that I'm not speaking the language, but I am hearing sounds and recognizing patterns which feels like a huge feat."
+
+
+
 ## Lecture
 
 ### Learning Objectives
